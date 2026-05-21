@@ -1,12 +1,12 @@
 import javax.swing.*;
 
-public class TextField {
+public class TextAreaEjemplo {
    private static JFrame frame;
    
    public static void main (String[] args){
     iniciarFrame();
     JPanel panel = new JPanel();
-    JTextField campoTexto = new JTextField(30);
+    JTextArea campoTexto = new JTextArea(10, 30);
     panel.add(campoTexto);
 
     frame.add (panel);
@@ -14,6 +14,9 @@ public class TextField {
    }
 
    public static void iniciarFrame(){
-    
-   }
+    frame =new JFrame ("Área de texto");
+    frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+    frame.setSize (400, 300);
+    frame.setVisible (true);
+}
 }

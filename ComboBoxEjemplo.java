@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class ComboBox {
+public class ComboBoxEjemplo {
    private static JFrame frame;
    
    public static void main (String[] args){
@@ -17,6 +17,9 @@ public class ComboBox {
    }
 
    public static void iniciarFrame(){
-    
-   }
+   frame =new JFrame ("ComboBox");
+    frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+    frame.setSize (400, 300);
+    frame.setVisible (true);
+}
 }

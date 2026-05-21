@@ -1,16 +1,16 @@
 import javax.swing.JFrame;
-public class Prueba {
+public class FrameEjemplo {
     private static JFrame frame;
 
 public static void main (String[] args) {
-    iniciarFrame;
+    iniciarFrame();
 
 }
 
 public static void iniciarFrame () {
     frame =new JFrame ("Prueba");
     frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
-    frame.etSize (width: 400, height: 300);
-    frame.setVisible (b:true);
+    frame.setSize (400, 300);
+    frame.setVisible (true);
 }
 }

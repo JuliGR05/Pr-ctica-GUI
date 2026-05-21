@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class Button {
+public class ButtonEjemplo {
  private static JFrame frame;
  
  public static void main (String[] args){
@@ -14,6 +14,9 @@ public class Button {
  }
 
  public static void iniciarFrame(){
-    
- }
+   frame =new JFrame ("Botón");
+    frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+    frame.setSize (400, 300);
+    frame.setVisible (true);
+}
 }

@@ -1,7 +1,7 @@
-import javax.swing.JFrame;
+import java.awt.Color;
 import javax.swing.*;
 
-public class Panel {
+public class PanelEjemplo {
     private static JFrame frame;
 
 public static void main (String[] args) {
@@ -12,6 +12,9 @@ public static void main (String[] args) {
 }
 
 public static void iniciarFrame () {
-    
+  frame =new JFrame ("Panel");
+    frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+    frame.setSize (400, 300);
+    frame.setVisible (true);
 }
 }
