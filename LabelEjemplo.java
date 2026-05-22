@@ -6,7 +6,7 @@ public class LabelEjemplo {
 public static void main (String[] args) {
     iniciarFrame();
     JPanel panel = new JPanel();
-    JLabel label = new JLabel("Hola, munndo!");
+    JLabel label = new JLabel("Hola, mundo!");
     panel.add (label);
 
     frame.add (panel);
